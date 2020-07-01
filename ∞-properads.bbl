@@ -1,0 +1,302 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{BGN18}
+
+\bibitem[AHS06]{AdamekHerrlichStrecker:ACCJC}
+Ji\v{r}\'{\i} Ad\'{a}mek, Horst Herrlich, and George~E. Strecker,
+  \emph{Abstract and concrete categories: the joy of cats}, Repr. Theory Appl.
+  Categ. (2006), no.~17, 1--507, Reprint of the 1990 original [Wiley, New
+  York].
+
+\bibitem[Bar18]{bar}
+Clark Barwick, \emph{From operator categories to higher operads}, Geom. Topol.
+  \textbf{22} (2018), no.~4, 1893--1959. \MR{3784514}
+
+\bibitem[BB17]{batanin-berger}
+M.~A. Batanin and C.~Berger, \emph{Homotopy theory for algebras over polynomial
+  monads}, Theory Appl. Categ. \textbf{32} (2017), Paper No. 6, 148--253.
+  \MR{3607212}
+
+\bibitem[BGN18]{BarwickGlasmanNardin}
+Clark Barwick, Saul Glasman, and Denis Nardin, \emph{Dualizing cartesian and
+  cocartesian fibrations}, Theory Appl. Categ. \textbf{33} (2018), Paper No. 4,
+  67--94. \MR{3746613}
+
+\bibitem[BK12]{BarwickKan:RCAMHTHT}
+C.~Barwick and D.~M. Kan, \emph{Relative categories: another model for the
+  homotopy theory of homotopy theories}, Indag. Math. (N.S.) \textbf{23}
+  (2012), no.~1-2, 42--68. \MR{2877401}
+
+\bibitem[BM03]{BergerMoerdijk}
+Clemens Berger and Ieke Moerdijk, \emph{Axiomatic homotopy theory for operads},
+  Comment. Math. Helv. \textbf{78} (2003), no.~4, 805--831. \MR{2016697}
+
+\bibitem[BM11]{bm_reedy}
+\bysame, \emph{On an extension of the notion of {R}eedy category}, Math. Z.
+  \textbf{269} (2011), no.~3-4, 977--1004. \MR{2860274}
+
+\bibitem[BV73]{BoardmanVogt}
+J.~M. Boardman and R.~M. Vogt, \emph{Homotopy invariant algebraic structures on
+  topological spaces}, Lecture Notes in Mathematics, Vol. 347, Springer-Verlag,
+  Berlin-New York, 1973. \MR{0420609}
+
+\bibitem[CG04]{CohenGodin:PVST}
+Ralph~L. Cohen and V\'{e}ronique Godin, \emph{A polarized view of string
+  topology}, Topology, geometry and quantum field theory, London Math. Soc.
+  Lecture Note Ser., vol. 308, Cambridge Univ. Press, Cambridge, 2004,
+  pp.~127--154. \MR{2079373}
+
+\bibitem[CHa]{patterns3}
+Hongyi Chu and Rune Haugseng, \emph{Enriched homotopy-coherent structures},
+  (working title), in preparation.
+
+\bibitem[CHb]{patterns1}
+\bysame, \emph{Homotopy-coherent algebra via {S}egal conditions}, Preprint
+  \href{https://arxiv.org/abs/1907.03977v2}{arXiv:1907.03977v2}.
+
+\bibitem[CH19]{ChingHarper}
+Michael Ching and John~E. Harper, \emph{Derived {K}oszul duality and
+  {$\mathsf{TQ}$}-homology completion of structured ring spectra}, Adv. Math.
+  \textbf{341} (2019), 118--187. \MR{3872846}
+
+\bibitem[CH20]{ChuHaugseng}
+Hongyi Chu and Rune Haugseng, \emph{Enriched {$\infty$}-operads}, Adv. Math.
+  \textbf{361} (2020), 106913. \MR{4038556}
+
+\bibitem[CHH18]{ChuHaugsengHeuts}
+Hongyi Chu, Rune Haugseng, and Gijs Heuts, \emph{Two models for the homotopy
+  theory of {$\infty$}-operads}, J. Topol. \textbf{11} (2018), no.~4, 856--872.
+  \MR{3847208}
+
+\bibitem[Chi12]{ChingBar}
+Michael Ching, \emph{Bar-cobar duality for operads in stable homotopy theory},
+  J. Topol. \textbf{5} (2012), no.~1, 39--80. \MR{2897049}
+
+\bibitem[CM12]{ChataurMenichi:STCS}
+David Chataur and Luc Menichi, \emph{String topology of classifying spaces}, J.
+  Reine Angew. Math. \textbf{669} (2012), 1--45. \MR{2980450}
+
+\bibitem[CM13]{CisinkiMoerdijk2}
+Denis-Charles Cisinski and Ieke Moerdijk, \emph{Dendroidal {S}egal spaces and
+  {$\infty$}-operads}, J. Topol. \textbf{6} (2013), no.~3, 675--704.
+  \MR{3100887}
+
+\bibitem[Cos07]{Costello:TCFTCYC}
+Kevin Costello, \emph{Topological conformal field theories and {C}alabi-{Y}au
+  categories}, Adv. Math. \textbf{210} (2007), no.~1, 165--214. \MR{2298823}
+
+\bibitem[DK80]{DwyerKan:SLC}
+W.~G. Dwyer and D.~M. Kan, \emph{Simplicial localizations of categories}, J.
+  Pure Appl. Algebra \textbf{17} (1980), no.~3, 267--284. \MR{579087}
+
+\bibitem[Dun06]{Duncan:TQC}
+Ross Duncan, \emph{Types for quantum computing}, Ph.D. thesis, 2006, Oxford
+  University.
+
+\bibitem[FG12]{FrancisGaitsgory}
+John Francis and Dennis Gaitsgory, \emph{Chiral {K}oszul duality}, Selecta
+  Math. (N.S.) \textbf{18} (2012), no.~1, 27--87. \MR{2891861}
+
+\bibitem[Fre10]{Fresse:PMCHIS}
+Benoit Fresse, \emph{Props in model categories and homotopy invariance of
+  structures}, Georgian Math. J. \textbf{17} (2010), no.~1, 79--160.
+  \MR{2640648}
+
+\bibitem[Gan03]{Gan:KDD}
+Wee~Liang Gan, \emph{Koszul duality for dioperads}, Math. Res. Lett.
+  \textbf{10} (2003), no.~1, 109--124. \MR{1960128}
+
+\bibitem[Gar08]{Garner:PPDL}
+Richard Garner, \emph{Polycategories via pseudo-distributive laws}, Adv. Math.
+  \textbf{218} (2008), no.~3, 781--827. \MR{2414322}
+
+\bibitem[GH15]{enriched}
+David Gepner and Rune Haugseng, \emph{Enriched {$\infty$}-categories via
+  non-symmetric {$\infty$}-operads}, Adv. Math. \textbf{279} (2015), 575--716.
+  \MR{3345192}
+
+\bibitem[GHK]{GepnerHaugsengKock:IOAM}
+David Gepner, Rune Haugseng, and Joachim Kock, \emph{$\infty$-operads as
+  analytic monads}, Preprint
+  \href{https://arxiv.org/abs/1712.06469v2}{arXiv:1712.06469v2}.
+
+\bibitem[God]{Godin}
+V\'{e}ronique Godin, \emph{Higher string topology operations}, Preprint
+  \href{https://arxiv.org/abs/0711.4859v2}{arXiv:0711.4859v2}.
+
+\bibitem[GP17]{spancospan}
+Marco Grandis and Robert Par\'e, \emph{Span and cospan representations of weak
+  double categories}, Categ. Gen. Algebr. Struct. Appl. \textbf{6} (2017),
+  no.~1, 85--105, 6 (Persian pp.). \MR{3620308}
+
+\bibitem[Hau]{HaugsengSS}
+Rune Haugseng, \emph{$\infty$-operads via symmetric sequences}, Preprint
+  \href{https://arxiv.org/abs/1708.09632v2}{arXiv:1708.09632v2}.
+
+\bibitem[Hau15]{enrcomp}
+Rune Haugseng, \emph{Rectification of enriched {$\infty$}-categories}, Algebr.
+  Geom. Topol. \textbf{15} (2015), no.~4, 1931--1982. \MR{3402334}
+
+\bibitem[Hin16]{hinloc}
+Vladimir Hinich, \emph{Dwyer-{K}an localization revisited}, Homology Homotopy
+  Appl. \textbf{18} (2016), no.~1, 27--48. \MR{3460765}
+
+\bibitem[HL15]{HepworthLahtinen:OSTCS}
+Richard Hepworth and Anssi Lahtinen, \emph{On string topology of classifying
+  spaces}, Adv. Math. \textbf{281} (2015), 394--507. \MR{3366844}
+
+\bibitem[Hov99]{Hovey:MC}
+Mark Hovey, \emph{Model categories}, Mathematical Surveys and Monographs,
+  vol.~63, Amer. Math. Soc., 1999.
+
+\bibitem[HP15]{HarpazPrasma}
+Yonatan Harpaz and Matan Prasma, \emph{The {G}rothendieck construction for
+  model categories}, Adv. Math. \textbf{281} (2015), 1306--1363. \MR{3366868}
+
+\bibitem[HR18]{infproplec}
+Philip Hackney and Marcy Robertson, \emph{Lecture notes on infinity-properads},
+  2016 {MATRIX} annals, MATRIX Book Ser., vol.~1, Springer, Cham, 2018,
+  pp.~351--374. \MR{3792530}
+
+\bibitem[HRY15]{hrybook}
+Philip Hackney, Marcy Robertson, and Donald Yau, \emph{Infinity {P}roperads and
+  {I}nfinity {W}heeled {P}roperads}, Lecture Notes in Mathematics, vol. 2147,
+  Springer, Cham, 2015.
+
+\bibitem[HRY17]{HackneyRobertsonYau:SMIP}
+\bysame, \emph{A simplicial model for infinity properads}, High. Struct.
+  \textbf{1} (2017), no.~1, 1--21.
+
+\bibitem[HRY18]{hry_factorizations}
+\bysame, \emph{On factorizations of graphical maps}, Homology Homotopy Appl.
+  \textbf{20} (2018), no.~2, 217--238. \MR{3812464}
+
+\bibitem[HRY19]{HackneyRobertsonYau:HCO}
+\bysame, \emph{Higher cyclic operads}, Algebr. Geom. Topol. \textbf{19} (2019),
+  no.~2, 863--940. \MR{3924179}
+
+\bibitem[HRY20]{HackneyRobertsonYau:GCHMO}
+\bysame, \emph{A graphical category for higher modular operads}, Adv. Math.
+  \textbf{365} (2020), 107044. \MR{4064770}
+
+\bibitem[Hyl02]{Hyland:PTA}
+J.~M.~E. Hyland, \emph{Proof theory in the abstract}, vol. 114, 2002,
+  Commemorative Symposium Dedicated to Anne S. Troelstra (Noordwijkerhout,
+  1999), pp.~43--78. \MR{1879408}
+
+\bibitem[Joy08]{Quadern45}
+Andr\'e Joyal, \emph{The theory of quasi-categories and its applications,
+  advanced course on simplicial methods in higher categories, vol. 2}, Quadern,
+  vol.~45, Centre de Recerca Matem\`atica, Barcelona, 2008.
+
+\bibitem[JT07]{JoyalTierney}
+Andr\'e Joyal and Myles Tierney, \emph{Quasi-categories vs {S}egal spaces},
+  Categories in algebra, geometry and mathematical physics, Contemp. Math.,
+  vol. 431, Amer. Math. Soc., Providence, RI, 2007, pp.~277--326. \MR{2342834}
+
+\bibitem[JY09]{JohnsonYau:OHIACP}
+Mark~W. Johnson and Donald Yau, \emph{On homotopy invariance for algebras over
+  colored {PROP}s}, J. Homotopy Relat. Struct. \textbf{4} (2009), no.~1,
+  275--315. \MR{2559644}
+
+\bibitem[Koc16]{Kock_Properads}
+Joachim Kock, \emph{Graphs, hypergraphs, and properads}, Collect. Math.
+  \textbf{67} (2016), no.~2, 155--190. \MR{3484016}
+
+\bibitem[Lur]{ha}
+Jacob Lurie, \emph{Higher {A}lgebra}, manuscript available at
+  \url{http://www.math.harvard.edu/~lurie/papers/HA.pdf} or
+  \url{https://web.archive.org/web/20200624074531/http://people.math.harvard.edu/~lurie/papers/HA.pdf}.
+
+\bibitem[Lur09]{ht}
+\bysame, \emph{Higher {T}opos {T}heory}, Annals of Mathematics Studies, vol.
+  170, Princeton University Press, Princeton, NJ, 2009. \MR{2522659}
+
+\bibitem[May72]{May}
+J.~P. May, \emph{The {G}eometry of {I}terated {L}oop {S}paces},
+  Springer-Verlag, Berlin-New York, 1972, Lectures Notes in Mathematics, Vol.
+  271. \MR{0420610}
+
+\bibitem[ML65]{MacLane:CA}
+Saunders Mac~Lane, \emph{Categorical algebra}, Bull. Amer. Math. Soc.
+  \textbf{71} (1965), 40--106. \MR{171826}
+
+\bibitem[MV09]{MerkulovVallette:DTRP}
+Sergei Merkulov and Bruno Vallette, \emph{Deformation theory of representations
+  of prop(erad)s. {II}}, J. Reine Angew. Math. \textbf{636} (2009), 123--174.
+  \MR{2572248}
+
+\bibitem[MW07]{MoerdijkWeiss}
+Ieke Moerdijk and Ittay Weiss, \emph{Dendroidal sets}, Algebr. Geom. Topol.
+  \textbf{7} (2007), 1441--1470. \MR{2366165}
+
+\bibitem[NS17]{NikolausSagave}
+Thomas Nikolaus and Steffen Sagave, \emph{Presentably symmetric monoidal
+  {$\infty$}-categories are represented by symmetric monoidal model
+  categories}, Algebr. Geom. Topol. \textbf{17} (2017), no.~5, 3189--3212.
+  \MR{3704256}
+
+\bibitem[PS18a]{PavlovScholbach}
+Dmitri Pavlov and Jakob Scholbach, \emph{Admissibility and rectification of
+  colored symmetric operads}, J. Topol. \textbf{11} (2018), no.~3, 559--601.
+  \MR{3830876}
+
+\bibitem[PS18b]{PavlovScholbachSymm}
+\bysame, \emph{Homotopy theory of symmetric powers}, Homology Homotopy Appl.
+  \textbf{20} (2018), no.~1, 359--397. \MR{3785971}
+
+\bibitem[PS19]{PavlovScholbachSp}
+\bysame, \emph{Symmetric operads in abstract symmetric spectra}, J. Inst. Math.
+  Jussieu \textbf{18} (2019), no.~4, 707--758. \MR{3963517}
+
+\bibitem[Rez01]{Rezk}
+Charles Rezk, \emph{A model for the homotopy theory of homotopy theory}, Trans.
+  Amer. Math. Soc. \textbf{353} (2001), no.~3, 973--1007. \MR{1804411}
+
+\bibitem[RV]{RiehlVerity:EICT}
+Emily Riehl and Dominic Verity, \emph{Elements of $\infty$-{C}ategory
+  {T}heory}, manuscript available at
+  \url{http://www.math.jhu.edu/~eriehl/elements.pdf} or
+  \url{http://web.archive.org/web/20200629222448/http://www.math.jhu.edu/~eriehl/elements.pdf}.
+
+\bibitem[Seg74]{SegalCatCohlgy}
+Graeme Segal, \emph{Categories and cohomology theories}, Topology \textbf{13}
+  (1974), 293--312. \MR{0353298}
+
+\bibitem[Sta63]{Stasheff:HAHSI}
+James Stasheff, \emph{Homotopy associativity of {H}-spaces {I}}, Trans. Amer.
+  Math. Soc. \textbf{108} (1963), 275--292.
+
+\bibitem[Sza75]{Szabo:P}
+M.~E. Szabo, \emph{Polycategories}, Comm. Algebra \textbf{3} (1975), no.~8,
+  663--689. \MR{373846}
+
+\bibitem[Tam09]{Tamanoi:SSOT}
+Hirotaka Tamanoi, \emph{Stable string operations are trivial}, Int. Math. Res.
+  Not. IMRN (2009), no.~24, 4642--4685. \MR{2564371}
+
+\bibitem[Val07]{Vallette:KDP}
+Bruno Vallette, \emph{A {K}oszul duality for {PROP}s}, Trans. Amer. Math. Soc.
+  \textbf{359} (2007), no.~10, 4865--4943. \MR{2320654 (2008e:18020)}
+
+\bibitem[Yal14]{Yalin:SLHAOP}
+Sinan Yalin, \emph{Simplicial localisation of homotopy algebras over a prop},
+  Math. Proc. Cambridge Philos. Soc. \textbf{157} (2014), no.~3, 457--468.
+  \MR{3286518}
+
+\bibitem[Yau]{Yau:DKHTAOC}
+Donald Yau, \emph{Dwyer--{K}an homotopy theory of algebras over operadic
+  collections}, Preprint
+  \href{https://arxiv.org/abs/1608.01867}{arXiv:1608.01867}.
+
+\bibitem[YJ15]{YauJohnson:FPAM}
+Donald Yau and Mark~W. Johnson, \emph{A {F}oundation for {PROP}s, {A}lgebras,
+  and {M}odules}, Mathematical Surveys and Monographs, vol. 203, American
+  Mathematical Society, Providence, RI, 2015. \MR{3329226}
+
+\end{thebibliography}
