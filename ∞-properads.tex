@@ -299,7 +299,7 @@ In both cases, we provide a rectification theorem that says that each up-to-homo
 Properads, first introduced by Vallette \cite{Vallette:KDP} in the context of Koszul duality theory for props, are an intermediate notion between operads and props that are capable of governing certain types of bialgebraic structures.
 Morphisms in operads take the form $f \colon a_1, \dots, a_n \to b$, that is, they can be interpreted as many-to-one operations.
 If $g \colon c_1, \dots, c_m \to d$ is some other operation, then we can form \[ g\circ_i f \colon c_1, \dots, c_{i-1}, a_1, \dots, a_n, c_{i+1}, \dots, c_m \to d\]  whenever $1\leq i \leq m$ and $b = c_i.$
-Properads, or more precisely the many-colored variant of them discovered independently Duncan in his thesis \cite[\S6.1]{Duncan:TQC} under the name ``compact symmetric polycategories,'' are an extension of operads that allows one to consider many-to-many operations \[f \colon a_1, \dots, a_n \to b_1, \dots, b_p.\]
+Properads, or more precisely the many-colored variant of them discovered independently by Duncan in his thesis \cite[\S6.1]{Duncan:TQC} under the name ``compact symmetric polycategories,'' are an extension of operads that allows one to consider many-to-many operations \[f \colon a_1, \dots, a_n \to b_1, \dots, b_p.\]
 Composition, rather than connecting one output with one input, is designed to connect several (meaning `at least one') outputs with inputs.
 These should be regarded as props (in the sense of \cite[\S24]{MacLane:CA}) without horizontal composition.\footnote{See also \cite[p.80]{Duncan:TQC}.}
 
@@ -995,7 +995,7 @@ See Figure~\ref{figure lattice of subcategories} for a schematic.
 
 \begin{definition}[Other categories of level graphs]
 \label{def subcategories of levelg}
-We define several full subcategories of $\levelg$, so that the restriction of $\levelg \to \simp$ is again a Grothendieck fibration.
+We define several full subcategories of $\levelg$.
 \begin{itemize}
 \item The most important is $\levelgconn$, which is the full subcategory on the \emph{connected} level graphs.
 By Lemma~\ref{lemma F0n connected}, these are characterized by the property that the the associated special functor $F \colon \scriptyell^n \to \finset$ preserves terminal objects.
@@ -1013,6 +1013,11 @@ Again by Proposition~\ref{prop DF} this category is equivalent to the category $
 It is spanned by the linear graphs, i.e.\ those graphs $G$ such that $G_{k,k}$ is a point for all $k$.
 \end{itemize}
 \end{definition}
+
+\begin{remark}
+Restricting the Grothendieck fibration $\levelg \to \simp$ to any of the subcategories $\levelg_{\name{0-type}}$, $\levelg_{\name{out}}$, $\simp_\finsetskel$, or $\simp$ again gives a Grothendieck fibration.
+The same is not true for $\levelgconn$, $\levelg_{\name{sc}}$, $\levelg_{\name{out,c}}$, and $\simp^1_\finsetskel$, as the domain of a cartesian lift in $\levelg$ over an inert morphism is sometimes disconnected, even when the codomain is connected.
+\end{remark}
 
 \begin{remark}[Simply-connected graphs]
 Most of the types of level graphs above are characterized by clear properties of $G \colon \scriptyell^n_0 \to \finset$ or of the associated special functor -- certain maps are surjections or bijections, or certain sets like $G_{0,n}$ or $G_{n,n}$ are terminal.
