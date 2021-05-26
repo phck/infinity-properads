@@ -5,7 +5,7 @@
   \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
 }
 \providecommand{\href}[2]{#2}
-\begin{thebibliography}{BGN18}
+\begin{thebibliography}{{Mac}65}
 
 \bibitem[AHS06]{AdamekHerrlichStrecker:ACCJC}
 Ji\v{r}\'{\i} Ad\'{a}mek, Horst Herrlich, and George~E. Strecker,
@@ -51,13 +51,9 @@ Ralph~L. Cohen and V\'{e}ronique Godin, \emph{A polarized view of string
   Lecture Note Ser., vol. 308, Cambridge Univ. Press, Cambridge, 2004,
   pp.~127--154. \MR{2079373}
 
-\bibitem[CHa]{patterns3}
+\bibitem[CH]{patterns3}
 Hongyi Chu and Rune Haugseng, \emph{Enriched homotopy-coherent structures},
   (working title), in preparation.
-
-\bibitem[CHb]{patterns1}
-\bysame, \emph{Homotopy-coherent algebra via {S}egal conditions}, Preprint
-  \href{https://arxiv.org/abs/1907.03977v2}{arXiv:1907.03977v2}.
 
 \bibitem[CH19]{ChingHarper}
 Michael Ching and John~E. Harper, \emph{Derived {K}oszul duality and
@@ -67,6 +63,10 @@ Michael Ching and John~E. Harper, \emph{Derived {K}oszul duality and
 \bibitem[CH20]{ChuHaugseng}
 Hongyi Chu and Rune Haugseng, \emph{Enriched {$\infty$}-operads}, Adv. Math.
   \textbf{361} (2020), 106913. \MR{4038556}
+
+\bibitem[CH21]{patterns1}
+\bysame, \emph{Homotopy-coherent algebra via {S}egal conditions}, Adv. Math.
+  \textbf{385} (2021), 107733. \MR{4256131}
 
 \bibitem[CHH18]{ChuHaugsengHeuts}
 Hongyi Chu, Rune Haugseng, and Gijs Heuts, \emph{Two models for the homotopy
@@ -120,10 +120,9 @@ David Gepner and Rune Haugseng, \emph{Enriched {$\infty$}-categories via
   non-symmetric {$\infty$}-operads}, Adv. Math. \textbf{279} (2015), 575--716.
   \MR{3345192}
 
-\bibitem[GHK]{GepnerHaugsengKock:IOAM}
+\bibitem[GHK21]{GepnerHaugsengKock:IOAM}
 David Gepner, Rune Haugseng, and Joachim Kock, \emph{$\infty$-operads as
-  analytic monads}, Preprint
-  \href{https://arxiv.org/abs/1712.06469v2}{arXiv:1712.06469v2}.
+  analytic monads}, Int. Math. Res. Not. IMRN (2021).
 
 \bibitem[God]{Godin}
 V\'{e}ronique Godin, \emph{Higher string topology operations}, Preprint
@@ -170,7 +169,7 @@ Philip Hackney, Marcy Robertson, and Donald Yau, \emph{Infinity {P}roperads and
 
 \bibitem[HRY17]{HackneyRobertsonYau:SMIP}
 \bysame, \emph{A simplicial model for infinity properads}, High. Struct.
-  \textbf{1} (2017), no.~1, 1--21.
+  \textbf{1} (2017), no.~1, 1--21. \MR{3912049}
 
 \bibitem[HRY18]{hry_factorizations}
 \bysame, \emph{On factorizations of graphical maps}, Homology Homotopy Appl.
@@ -217,14 +216,14 @@ Jacob Lurie, \emph{Higher {A}lgebra}, manuscript available at
 \bysame, \emph{Higher {T}opos {T}heory}, Annals of Mathematics Studies, vol.
   170, Princeton University Press, Princeton, NJ, 2009. \MR{2522659}
 
+\bibitem[{Mac}65]{MacLane:CA}
+Saunders {Mac Lane}, \emph{Categorical algebra}, Bull. Amer. Math. Soc.
+  \textbf{71} (1965), 40--106. \MR{171826}
+
 \bibitem[May72]{May}
 J.~P. May, \emph{The {G}eometry of {I}terated {L}oop {S}paces},
   Springer-Verlag, Berlin-New York, 1972, Lectures Notes in Mathematics, Vol.
   271. \MR{0420610}
-
-\bibitem[ML65]{MacLane:CA}
-Saunders Mac~Lane, \emph{Categorical algebra}, Bull. Amer. Math. Soc.
-  \textbf{71} (1965), 40--106. \MR{171826}
 
 \bibitem[MV09]{MerkulovVallette:DTRP}
 Sergei Merkulov and Bruno Vallette, \emph{Deformation theory of representations
@@ -262,7 +261,7 @@ Charles Rezk, \emph{A model for the homotopy theory of homotopy theory}, Trans.
 Emily Riehl and Dominic Verity, \emph{Elements of $\infty$-{C}ategory
   {T}heory}, manuscript available at
   \url{http://www.math.jhu.edu/~eriehl/elements.pdf} or
-  \url{http://web.archive.org/web/20200629222448/http://www.math.jhu.edu/~eriehl/elements.pdf}.
+  \url{http://web.archive.org/web/20210524224909/http://www.math.jhu.edu/~eriehl/elements.pdf}.
 
 \bibitem[Seg74]{SegalCatCohlgy}
 Graeme Segal, \emph{Categories and cohomology theories}, Topology \textbf{13}

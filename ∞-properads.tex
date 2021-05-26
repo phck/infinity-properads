@@ -283,7 +283,7 @@ The second author also acknowledges the support of Australian Research Council D
 We develop a theory of infinity properads enriched in a general symmetric monoidal infinity category.
 These are defined as presheaves, satisfying a Segal condition and a Rezk completeness condition, over certain categories of graphs.
 In particular, we introduce a new category of level graphs which also allow us to give a framework for algebras over an enriched infinity properad.
-We show that one can vary the category of level graphs without changing the underlying theory.
+We show that one can vary the category of graphs without changing the underlying theory.
 
 We also show that infinity properads cannot always be rectified, indicating that a conjecture of the second author and Robertson is unlikely to hold.
 This stands in stark contrast to the situation for infinity operads, and we further demarcate these situations by examining the cases of infinity dioperads and infinity output properads.
@@ -435,7 +435,7 @@ We now propose several interesting areas of exploration  based on the machinery 
 First of all, one should be able to describe enriched $\infty$-properads as monoids in bicollections in a similar way as Vallette first introduced properads in \cite{Vallette:KDP}.
 More precisely, the goal would be to construct a Day convolution double $\infty$-category $\widetilde{\levelV}$ by using the double $\infty$-categorical structure of $\levelV$ (Remark~\ref{rem doublecatV}) introduced in Definition~\ref{def LV_YV}.
 This naturally generalizes the constructions given by \cite{HaugsengSS} for the $\infty$-operadic setting. 
-The universal property of $\widetilde{\levelV}$ should then show that the $\infty$-category of monoids in $\widetilde{\levelV}$ is equivalent to the $\infty$-category $\Seg_{\oplevelV}(\xS)$ of Segal objects and by restricting to the $\infty$-category $\name{Prpd}^\xV_\infty$ of $\xV$-enriched $\infty$-properads viewed as a full subcategory of $\Seg_{\oplevelV}(\xS)$ we obtain the desired description of enriched $\infty$-properads as monoids. 
+The universal property of $\widetilde{\levelV}$ should then show that the $\infty$-category of monoids in $\widetilde{\levelV}$ is equivalent to the $\infty$-category $\Seg(\levelV)$ of Segal objects and by restricting to the $\infty$-category $\name{Prpd}^\xV_\infty$ of $\xV$-enriched $\infty$-properads viewed as a full subcategory of $\Seg(\levelV)$ we obtain the desired description of enriched $\infty$-properads as monoids. 
 
 One of the reasons for introducing $\levelV$ in this paper is the fact that in contrast to other $\infty$-categories governing enriched $\infty$-properads such as $\bbYV$ the $\infty$-category $\levelV$ admits a natural double $\infty$-categorical structure which is essential for the construction of $\widetilde{\levelV}$ mentioned above.
 
@@ -443,7 +443,7 @@ One of the reasons for introducing $\levelV$ in this paper is the fact that in c
 As a first application of the previous item, for any enriched $\infty$-properad $P$ we wish to describe $P$-algebras as certain module in bicollections.
 This would improve on the results about algebras from the present paper by not only proving the existence, but also giving an explicit formula of computing algebras.
 \item \emph{Koszul duality or bar-cobar construction:} 
-Built on the description of enriched $\infty$-properads as monoids in bicollections Lurie's theory of Koszul duality for associative algebras \cite[\S 5.2]{ha} then gives a adjunction between enriched $\infty$-properads and enriched $\infty$-coproperads which are coassociative coalgebras in bicollections.
+Built on the description of enriched $\infty$-properads as monoids in bicollections Lurie's theory of Koszul duality for associative algebras \cite[\S 5.2]{ha} then gives an adjunction between enriched $\infty$-properads and enriched $\infty$-coproperads which are coassociative coalgebras in bicollections.
 We expect that this approach generalizes the bar-cobar construction in the setting of ordinary properads and by restricting our general construction we should then obtain the Koszul duality for enriched $\infty$-operads with the most interesting case being the enrichment over spectra.
 As was observed by Ching and Harper \cite{ChingBar,ChingHarper}, the coalgebraic structures in spectra are difficult to work with using model categorical methods, enticing one to work in the $\infty$-categorical setting and to study Koszul duality occurring for any stable symmetric monoidal $\infty$-categories instead of spectra.
 In \cite{FrancisGaitsgory} Francis and Gaitsgory have used the expected properties of enriched $\infty$-operads to obtain Koszul duality equivalences under certain finiteness hypotheses and also conjectured how this should generalize.
@@ -998,7 +998,7 @@ See Figure~\ref{figure lattice of subcategories} for a schematic.
 We define several full subcategories of $\levelg$.
 \begin{itemize}
 \item The most important is $\levelgconn$, which is the full subcategory on the \emph{connected} level graphs.
-By Lemma~\ref{lemma F0n connected}, these are characterized by the property that the the associated special functor $F \colon \scriptyell^n \to \finset$ preserves terminal objects.
+By Lemma~\ref{lemma F0n connected}, these are characterized by the property that the associated special functor $F \colon \scriptyell^n \to \finset$ preserves terminal objects.
 \item The full subcategory $\levelg_{\name{sc}}$ consists of the \emph{simply-connected} level graphs.
 \item There is also the larger subcategory $\levelg_{\name{0-type}}$, consisting of possibly disconnected graphs where each connected component is simply-connected.
 \item The full subcategory $\levelg_{\name{out}}$ consists of those level graphs $G$ so that each vertex has at least one output. That is, the functions $G_{k,k} \to G_{k-1,k}$ are surjective.
@@ -1090,12 +1090,12 @@ In \cite{ChuHaugsengHeuts} the authors further show that Barwick's approach to $
 
 \begin{remark}\label{remark level not phi seq}
 In contrast to the level forest situation, the category $\levelg$ does not arise from an operator category $\Phi$ in the sense of \cite[Definition 1.2]{bar}. 
-Indeed, if $\levelg$ was the category of of $\Phi$-sequences (\cite[Definition 2.4]{bar}) for some operator category $\Phi$, then
+Indeed, if $\levelg$ was the category of $\Phi$-sequences (\cite[Definition 2.4]{bar}) for some operator category $\Phi$, then
 \begin{itemize}
 \item height 0 level graphs would correspond to functors $[0] \to \Phi$, and
 \item height 1 level graphs would correspond to functors $[1] \to \Phi$.
 \end{itemize}
-It would then follow that the objects of $\Phi$ are finite sets and the the morphisms of $\Phi$ are cospans of finite sets.
+It would then follow that the objects of $\Phi$ are finite sets and the morphisms of $\Phi$ are cospans of finite sets.
 In particular, each $\hom(X,Y)$ is infinite, so neither (1.2.1) nor (1.2.3) from \cite{bar} is satisfied.
 \end{remark}
 
@@ -1144,8 +1144,8 @@ This map is a bijection on the level $k-1$ and $k$ edges and the level $k$ verti
 
 \subsection{The category \texorpdfstring{$\bbY$}{G} of connected, acyclic graphs}\label{section subcategory bbY}
 In \cite{hrybook} the authors introduced $\infty$-properads as presheaves on an indexing category $\hryGamma$, called the `graphical category' or `properadic graphical category.'
-In this section, we give a new presentation for a category $\bbY$ (see Definition~\ref{definition complete morphism} and Definition~\ref{def Y}), and in Appendix~\ref{appendix comparison with HRY} we show that our $\bbY$ is indeed equivalent to the category $\hryGamma$ from \cite{hrybook}.
-
+In this section, we give a new presentation for a category $\bbY$ (see Definition~\ref{definition complete morphism} and Definition~\ref{def Y}), and in Appendix~\ref{appendix comparison with HRY} we show that our $\bbY$ is indeed equivalent to the category $\hryGamma$.
+Accordingly, going forward we will use whichever description of the properadic graphical category that is most convenient at the time, and to avoid duplication we will frequently use results from \cite{hrybook}.
 
 Let $G$ and $H$ be directed graphs, and suppose that we are given a vertex $v\in G$ as well as bijections
 $b_i \colon \inp(v) \cong \inp(H)$ and
@@ -1688,7 +1688,7 @@ By declaring certain objects to be `elementary objects,' these categories and fa
 As the remainder of the paper deals with $\infty$-categories, we recall the definition of a factorization system in that context.
 
 \begin{definition}\label{definition inf cat factorization system}
-	Let $\xcc$ be an $\infty$-category and let $(\xcc^{L}, \xcc^{R})$ be a pair of wide subcategories of $\xcc$. Suppose $\Fun_{L,R}(\Delta^{2},\xcc)$ denotes the full subcategory of $\Fun(\Delta^{2},\xcc)$ spanned by those diagrams $\sigma$ such that $\sigma|_{\Delta^{\{0,1\}}}$ is in $\xcc^{L}$ and $\sigma|_{\Delta^{\{1,2\}}}$ is in $\xcc^{R}$. Then we say $\xcc$ has \emph{factorization system} if the the functor
+	Let $\xcc$ be an $\infty$-category and let $(\xcc^{L}, \xcc^{R})$ be a pair of wide subcategories of $\xcc$. Suppose $\Fun_{L,R}(\Delta^{2},\xcc)$ denotes the full subcategory of $\Fun(\Delta^{2},\xcc)$ spanned by those diagrams $\sigma$ such that $\sigma|_{\Delta^{\{0,1\}}}$ is in $\xcc^{L}$ and $\sigma|_{\Delta^{\{1,2\}}}$ is in $\xcc^{R}$. Then we say $\xcc$ has a \emph{factorization system} if the functor
 	\[ \Fun_{L,R}(\Delta^{2},\xcc) \to
 	\Fun(\Delta^{1},\xcc) \] given by restriction to $\Delta^{\{0,2\}}$ is an equivalence.
 \end{definition}
@@ -1703,17 +1703,21 @@ Here a map in $\xV^\otimes$ is called inert if it is cocartesian and lies over a
 
 The categories from Section~\ref{section categories of directed graphs}, along with several others, fit into a general framework developed by the first author with Haugseng in \cite{patterns1}.
 
-\begin{remark}\label{rem algpatt}
-	Let $\mathcal Q$ be an $\infty$-category with an active-inert factorization system, and let $\mathcal Q^\op$ be its opposite, which comes with an inert-active factorization system.
-	Fix a full subcategory $\mathcal Q^\op_\xel$ of $\mathcal Q^\op_{\name{int}}$ whose objects are called elementary objects. 
-	In \cite{patterns1} this data is called an \emph{algebraic pattern} and following \cite[Definition 2.7]{patterns1} we can define \emph{Segal $\mathcal{Q}$-spaces} to be functors $F\colon \mathcal Q^\op \to \xS$ such that the canonical map 
+\begin{definition}\label{def algpatt}
+Let $\mathcal Q$ be an $\infty$-category with an active-inert factorization system, and let $\mathcal Q^\op$ be its opposite, which comes with an inert-active factorization system.
+Fix a full subcategory $\mathcal Q^\op_\xel$ of $\mathcal Q^\op_{\name{int}}$ whose objects are called elementary objects. 
+In \cite[Definition 2.1]{patterns1} this data is called an \emph{algebraic pattern}.
+Following \cite[Definition 2.7]{patterns1} we can define \emph{Segal $\mathcal{Q}$-spaces} to be functors $F\colon \mathcal Q^\op \to \xS$ such that the canonical map 
 	\[F(X)\to \lim_{E\in (\mathcal Q^{\op}_{\xel})_{X/}}	F(E)\]
 	is an equivalence for each $X\in \mathcal Q^\op$. 
+We write $\Seg(\mathcal Q)$ for the full subcategory of $\Pre(\mathcal Q) = \xFun(\mathcal Q^\op, \xS)$ spanned by Segal $\mathcal Q$-spaces (this is denoted by $\Seg_{\mathcal{Q}^\op}(\xS)$ in \cite{patterns1}).
+\end{definition}
+
 	In other words, $F$ is a Segal $\mathcal Q$-space if and only if the restriction $F|_{\mathcal Q^\op_{\name{int}}}$ is the right Kan extension of $F|_{\mathcal Q^\op_\xel}$ along the inclusion $\mathcal Q^{\op}_{\xel}\hookrightarrow \mathcal Q^{\op}_{\xint}$ (see \cite[Lemma 2.9]{patterns1}). 
 	We write $\Seg(\mathcal Q)$ for the full subcategory of $\Pre(\mathcal Q) = \xFun(\mathcal Q^\op, \xS)$ spanned by Segal $\mathcal Q$-spaces (this is denoted by $\Seg_{\mathcal{Q}^\op}(\xS)$ in \cite{patterns1}).
 	The description of Segal $\mathcal Q$-spaces as right Kan extensions and \cite[Proposition 4.3.2.15]{ht} imply that $\Seg(\mathcal Q_{\xint})\simeq \Pre(\mathcal Q_{\xel})$.
 	
-	The most prominent example is $\mathcal Q=\simp$ which has an active-inert factorization system where the inert morphisms are interval inclusions and active morphisms are boundary preserving maps (see Example~\ref{ex simpfactsys}). 
+	The most prominent example of an algebraic pattern is $\mathcal Q=\simp$ which has an active-inert factorization system where the inert morphisms are interval inclusions and active morphisms are boundary preserving maps (see Example~\ref{ex simpfactsys}). 
 	By choosing the elementary objects to be $[1]$ and $[0]$, we see that $\simp^\op$ admits the structure of an algebraic pattern and Segal $\simp$-spaces are exactly Segal spaces in the sense of \cite{Rezk}, which turn out to model $\infty$-categories. 
 	The basic idea of the construction of Segal $\mathcal Q$-presheaves is that the elementary objects play the role of building blocks of an algebraic structure while the Segal condition, i.e.\ the requirement that the canonical maps $F(X)\to \lim_{E\in (\mathcal Q^\op_{\xel})_{X/}} F(E)$ are equivalences, says that every space $F(X)$ is given by gluing these building blocks along inert morphisms. 
 	The algebraic operations such as compositions are induced by active morphisms. 
@@ -1722,7 +1726,6 @@ The categories from Section~\ref{section categories of directed graphs}, along w
 	
 	Following the idea that the algebraic structure of objects in $\Seg(\mathcal Q)$ are controlled by inert/active morphisms in $\mathcal Q^\op$, it is natural that a functor $f\colon \mathcal Q\to \mathcal R$ induces a functor $\Seg(\mathcal R)\to \Seg(\mathcal Q)$ (by precomposition) when $f$ is compatible with the additional data.
 	A precise characterization can be found in \cite[Lemma 4.5]{patterns1}, which includes that $f$ must preserve both the factorization system and the elementary objects.
-\end{remark}
 
 
 \subsection{Segal presheaves and decorated graph categories}\label{subsec DFV}
@@ -1736,7 +1739,7 @@ We will shortly unravel the following definition (see Remark~\ref{remark equiv s
 
 \begin{definition}
 \label{def segal upsilon and ell}
-	We now introduce a few algebraic structures given by the construction described in Remark~\ref{rem algpatt}.
+	We now introduce a few algebraic structures given by the construction described in Definition~\ref{def algpatt}.
 	\begin{enumerate}
 		\item 
 		We write $\bbY^{\op}_{\xel}$ for the full subcategory of $\hryint^{\op}$ of Theorem~\ref{theo Yfs} spanned by the corollas and the edge $\downarrow$.
@@ -1844,9 +1847,9 @@ In particular, a similar statement to the following holds when $\levelg$ is repl
 Suppose $F \in \xFun(\levelg^{\op},\xS)$.
 The following are equivalent:
 \begin{enumerate}
-\item $F$ is a Segal $\levelg$-space. \label{SegDFcond segal}
-\item $F$ is local with respect to all Segal core inclusions $L_{\Seg} \to L$ (Definition~\ref{segal cores}). \label{segDFcond segal core}
-\item $F$ is local with respect to the short Segal core inclusions (Definition~\ref{segal cores}) and the segmentation maps (Definition~\ref{def segmentation map}). \label{segDFcond short segmentation}
+\item $F$ is a Segal $\levelg$-space.\label{SegDFcond segal}
+\item $F$ is local with respect to all Segal core inclusions $L_{\Seg} \to L$ (Definition~\ref{segal cores}).\label{segDFcond segal core}
+\item $F$ is local with respect to the short Segal core inclusions (Definition~\ref{segal cores}) and the segmentation maps (Definition~\ref{def segmentation map}).\label{segDFcond short segmentation}
 \end{enumerate}
 \end{propn}
 \begin{proof}
@@ -1870,7 +1873,7 @@ As the bottom map is a segmentation map, we see that \eqref{segDFcond short segm
 
 In the $1$-categorical setting, the concept of properads is a generalization of that of operads, which in turn is a generalization of categories. 
 Following Rezk \cite{Rezk}, \cite{CisinkiMoerdijk2} and the previous definition in the $\infty$-categorical setting these algebraic structures can be described as presheaves satisfying Segal conditions. 
-Using the terminology of Remark~\ref{rem algpatt}, $\infty$-categories, $\infty$-operads, and $\infty$-properads are modeled by objects in $\Seg(\simp)$, $\Seg(\bbO)$, and $\Seg(\bbY)$, respectively, and the two generalization steps are induced by embeddings $\simp^{\op} \overset{i}{\hookrightarrow} \bbO^\op \overset{j}{\hookrightarrow} \bbY^\op $ of the corresponding indexing categories which respect both the inert-active factorization systems and the elementary objects. 
+Using the terminology of Definition~\ref{def algpatt}, $\infty$-categories, $\infty$-operads, and $\infty$-properads are modeled by objects in $\Seg(\simp)$, $\Seg(\bbO)$, and $\Seg(\bbY)$, respectively, and the two generalization steps are induced by embeddings $\simp^{\op} \overset{i}{\hookrightarrow} \bbO^\op \overset{j}{\hookrightarrow} \bbY^\op $ of the corresponding indexing categories which respect both the inert-active factorization systems and the elementary objects. 
 More precisely, the precompositions with $i$ and $j$ induce functors (see \cite[Lemma 4.5]{patterns1})
 \[i^*\colon \Seg(\bbO)\to \Seg(\simp)\text{ and } j^*\colon \Seg(\bbY)\to \Seg(\bbO),\]
 where $j^*$ takes any $\infty$-properad to its underlying $\infty$-operad while $i^*$ associates to any $\infty$-operad its underlying $\infty$-category
@@ -1933,7 +1936,7 @@ Then its image in $\pfinsetskel$ is active, so by Example~\ref{example fact syst
 Each elementary object of $\gc^\op$ maps to $\langle 0\rangle$ or $\langle 1 \rangle$ in $\pfinsetskel$.
 It follows that elementary objects in $\gc^{\op, \xV}$ are those of the form $\xfc(v)$ where $\xfc$ is a corolla and $v\in \xV$, and also $\xfe$.
 \end{itemize}
-Following Remark~\ref{rem algpatt} we can define the $\infty$-category $\Seg(\gcV)$ of Segal $\gcV$-spaces. 
+Following Definition~\ref{def algpatt} we can define the $\infty$-category $\Seg(\gcV)$ of Segal $\gcV$-spaces. 
 \end{remark}
 
 \begin{definition}\label{def bar Segal cores}
@@ -2146,7 +2149,7 @@ Similar statements hold when the pair $(\levelgconn, \levelg)$ is replaced by $(
 We only give a proof for $(\levelgconn, \levelg)$, as the other two situations are entirely analogous. 
 By Proposition~\ref{proposition restriction restricts to segal stuff} and Lemma~\ref{lem actlift} the adjunction
 $i^*\colon \Pre(\levelg)\rightleftarrows \Pre(\levelgconn)\colon i_*,$ where the right adjoint $i_*$ is given by right Kan extension, restricts to an adjunction
-\[i^*\colon \Seg(\levelg)\rightleftarrows \Seg(\levelgconn)\colon i_*\]
+\[i^*\colon \Seg(\levelg)\rightleftarrows \Seg(\levelgconn)\cocolon i_*\]
 Since $i$ is fully faithful, the right adjoint $i_*$ is fully faithful and the counit is an equivalence. It only remains to show that the unit $\id \to i_*i^*$ is an equivalence after evaluating at any object $F\in \Seg(\levelg)$ and $I\in \levelg^\op$. 
 The description of right Kan extension give $i_*i^*F(I)\simeq \lim_{J\in (\levelgconn^\op)_{I/}}F(iJ)$. Let us regard the set $\{I_j\}$ of objects $I\to I_j$ in $(\levelgconn^\op)_{I/}$ such that $I_j$ is a connected component of $I$. 
 We now want to see that the inclusion of $\{I_j\}$ into $(\levelgconn^\op)_{I/}$ is final. 
@@ -2220,7 +2223,7 @@ Suppose $\xV$ and $\xW$ are presentably symmetric monoidal $\infty$-categories.
 		\item If $F \colon \xV \to \xW$ is a symmetric monoidal left adjoint, with (lax monoidal) right adjoint $G$, then there is an adjunction
 		\[ F_{*} \colon \Alg_{\gc^\op_X}(\xV) \rightleftarrows \Alg_{\gc^\op_X}(\xW)\cocolon G_{*}.\]
 		\item If $L \colon \xV \to \xW$ is a symmetric monoidal localization with (lax monoidal) fully faithful right adjoint $i$, then the right adjoint $i_{*} \colon \Alg_{\gc^\op_X}(\xW) \to \Alg_{\gc^\op_X}(\xV)$ is fully faithful.
-		The image consists of those algebras $A \colon \gc^\op_X \to \xV^\otimes$ so that that $A$ takes each object of $\gc^\op_X$ lying over a corolla in $\gc^\op$ to an object in $i(\xW)$. \qed
+		The image consists of those algebras $A \colon \gc^\op_X \to \xV^\otimes$ so that $A$ takes each object of $\gc^\op_X$ lying over a corolla in $\gc^\op$ to an object in $i(\xW)$. \qed
 	\end{enumerate}
 \end{propn}
 
@@ -2239,7 +2242,7 @@ Suppose $\xV$ and $\xW$ are presentably symmetric monoidal $\infty$-categories.
 \end{cor}
 
 \subsection{Enrichment in presheaves}\label{subsec psh}
-In this subsection we recall some results which can be proven in a similar manner to their $\infty$-operadic counterparts in \cite[\textsection 2.5 and \textsection 2.6]{ChuHaugseng}, by replacing replacing $\simp_{\finsetskel}$ with a graph category $\gc$.  
+In this subsection we recall some results which can be proven in a similar manner to their $\infty$-operadic counterparts in \cite[\textsection 2.5 and \textsection 2.6]{ChuHaugseng}, by replacing $\simp_{\finsetskel}$ with a graph category $\gc$.  
 
 Let $\xU$ be a small symmetric monoidal \icat{}, then according to \cite[Corollary 4.8.1.12]{ha} the presheaf $\infty$-category $\Pre(\xU)$ has a unique symmetric monoidal structure (called `Day convolution') such that the tensor product preserves colimits in each variable and the Yoneda embedding $y\colon \xU \to \Pre(\xU)$ is symmetric monoidal. 
 
@@ -2414,7 +2417,7 @@ Since the square is a pullback and $\xE^\op \to \xcc^\op$ is a cocartesian fibra
 $
 \alpha^* p_! \simeq q_! \beta^* \colon \Pre(\xE) \to \Pre(\mathcal{B});	
 $
-see Lemma~9.2.6 and Proposition~9.5.8 of \cite{RiehlVerity:EICT}.
+see Lemma~9.2.7 and Lemma~12.3.11 of \cite{RiehlVerity:EICT}.
 We use this fact freely in the following proof.
 We note also that $\beta^*e\to q^*q_! \beta^*e$ is equivalent to $\beta^*$ applied to the unit $e \to p^*p_!e$.
 \begin{proof}
@@ -2522,7 +2525,7 @@ The proof of the second item is similar, except that $\mathbb{S}$ should be take
 \end{proof}
 
 \subsection{Tensoring with Segal spaces}\label{sec tensor product}
-In this subsection we prove that that for a presentably symmetric monoidal \icat{} $\xV$, the \icat{} $\Segrep(\levelV)$ is a module over the symmetric monoidal \icat{} $\Seg(\simp)$ of Segal spaces.
+In this subsection we prove that for a presentably symmetric monoidal \icat{} $\xV$, the \icat{} $\Segrep(\levelV)$ is a module over the symmetric monoidal \icat{} $\Seg(\simp)$ of Segal spaces.
 At the end we will see that by applying the adjoint functor theorem to this tensoring functor we get an algebra functor which takes two objects in $\Segrep(\levelV)$ to the corresponding $\infty$-category of algebras between them.
 Notice that we are no longer working with an arbitrary graph category $\gc$ (Notation~\ref{notation graph categories}), but rather just\footnote{Our techniques are slightly more general than this, and apply to $\levelg_{\name{out}}$ and $\levelg_{\name{0-type}}$ as mentioned in Remark~\ref{remark sec tensor product extension}.} with $\levelg$.
 This shift is important for our proofs, though eventually we shall see (Corollary~\ref{cor equ enr properads}) that $\Segrep(\bbYV) \simeq \Segrep(\levelV)$, so our main results extend to that context (e.g., Proposition~\ref{cor:PCStensor}).
@@ -2534,7 +2537,7 @@ This shift is important for our proofs, though eventually we shall see (Corollar
 	Hence, by \cite[Corollary 3.4.1.7]{ha}, the functor 
 \[\blank \times p^{*}(\blank)\colon \Pre(\levelU) \times \Pre(\simp) \to \Pre(\levelU).\]
 exhibits $\Pre(\levelU)$ as a module over $\Pre(\simp)$.
-	This functor then preserves preserves colimits in each variable, because the cartesian product in $\xS$ does and $p^{*}$ is left adjoint to $p_*$ (given by right Kan extension).
+	This functor then preserves colimits in each variable, because the cartesian product in $\xS$ does and $p^{*}$ is left adjoint to $p_*$ (given by right Kan extension).
 \end{defn}
 
 The main result of this section is the following theorem.
@@ -2874,7 +2877,7 @@ This shows that the fibres of the vertical maps of the commutative square
 \csquare{(\oplevelcVel)_{\overline L/}}{(\opbbYVel)_{\bartau \overline L/}}{\oplevelcVel}{\opbbYVel}{}{}{}{\sim}
 are equivalent and therefore, the upper horizontal map is an equivalence.
 
-For the second equivalence we first observe that that a map $\tau L\to \tau E$ in $\bbY$ is either active or factors through $\tau \xfe= {\downarrow}$. 
+For the second equivalence we first observe that a map $\tau L\to \tau E$ in $\bbY$ is either active or factors through $\tau \xfe= {\downarrow}$. 
 If $\tau L\to \tau E$ is active, then it is given by contracting all inner edges, i.e. edges bounded by two vertices. 
 It follows that in both cases $\tau L\to \tau E$ lies in the image of $\tau$ and hence
 $\xMap_{\levelg_{\name{c}}}(L, E)\isoto \xMap_{\bbY}(\tau L, \tau E)$ is an equivalence.
@@ -2993,7 +2996,7 @@ If $g$ is active, $\varphi$ is admissible, and $\psi$ is non-degenerate and not 
 Since $\psi$ is non-degenerate, the map $\alpha$ is injective, hence $n\geq m$.
 Since $g$ is active and $G$ has at least one vertex, we have $m > 0$.
 
-We first show that that $\alpha(m) = n$.
+We first show that $\alpha(m) = n$.
 Let $v \in J_{n-1,n}$ be the unique vertex so that $f(C_{v})$ is a corolla, and let $w\in \vertex(G)$ be the vertex in this corolla.
 The diagram
 \[
@@ -3064,7 +3067,7 @@ We now endeavor to show that there is a sufficient supply of non-degenerate, adm
 The next construction, which proves the existence of certain factorizations, is essential for the proof of Proposition~\ref{proposition exterior boundary inner anodyne}.
 In the construction, we say that a vertex $v$ of a graph $G$ is a \emph{bottom vertex} if all of its outgoing edges are also outgoing edges for the graph, $\out(v) \subseteq \out(G)$.
 Given a bottom vertex $v$, we can form a (possibly disconnected) graph $G\setminus v$ with $\vertex(G\setminus v) = \vertex(G) \setminus \{ v \}$, $\edge(G\setminus v) = \edge(G) \setminus \out(v)$ with the rest of the structure evident.
-We have have $C_v \amalg_{\inp(v)} G \setminus v \cong C_v \cup G\setminus v = G$, where the second expression is a union as subobjects of $G$.
+We have $C_v \amalg_{\inp(v)} G \setminus v \cong C_v \cup G\setminus v = G$, where the second expression is a union as subobjects of $G$.
 If $H$ is a connected component of $G\setminus v$, then $H \in \sub(G)$ is a structured subgraph.
 
 \begin{figure}[htb]
@@ -3266,7 +3269,7 @@ We have a commutative square
 \end{tikzcd}
 \]
 of right adjoints (where $\bartauint \colon  \levelcUint \to \bbYUint$ is the restriction of $\bartau$), where the vertical morphisms induced by precompositions of the canonical inclusions $\bar\imath_{\bbY}\colon \bbYUint \to \bbYU$, $\bar\imath_{\levelg}\colon \levelcUint \to \levelcU$ are monadic according to \cite[Corollary 8.2]{patterns1}. 
-Let $F_{\bbY}$ and $F_\levelg$ denote the corresponding left adjoints. By Remark~\ref{rem algpatt}, the bottom horizontal map $\bartauint^*$ can be identified with $\Pre(\bbYUel)\to \Pre(\levelcUel)$ which is an equivalence by Remark~\ref{rmk bartauel eq}. Then \cite[Corollary 4.7.3.16]{ha} implies that $\bartau^{*}$ is an
+Let $F_{\bbY}$ and $F_\levelg$ denote the corresponding left adjoints. By the discussion in the paragraph following Definition~\ref{def algpatt}, the bottom horizontal map $\bartauint^*$ can be identified with $\Pre(\bbYUel)\to \Pre(\levelcUel)$ which is an equivalence by Remark~\ref{rmk bartauel eq}. Then \cite[Corollary 4.7.3.16]{ha} implies that $\bartau^{*}$ is an
 equivalence if the canonical natural
 transformation $F_{\levelg} \to
 \bartau^{*} F_{\bbY} (\bartauint^{*})^{-1}$ is an equivalence, which is the same as requiring that the corresponding
@@ -3811,7 +3814,7 @@ Notice that there is an operad map $\bfproperad_S \to \bfproperad$ which forgets
 		\item Let $\mathbf{Cat}_S$ denote the full suboperad of $\bfproperad_S$ with color set the pullback of $ \{1\} \times \{1 \} \hookrightarrow \mathbb{N} \times \mathbb{N}$.
 		Algebras over $\mathbf{Cat}_S$ are categories with $S$ as the set of objects (see \cite[2.1]{enriched}). Likewise, letting $\mathbf{Opd}_S$ denote the full suboperad of $\bfproperad_S$ with color set the pullback of $\mathbb{N}\times \{1 \} \hookrightarrow \mathbb{N} \times \mathbb{N}$, we recover the operad whose algebras are $S$-colored operads (see \cite[Definition 5.1.5]{ChuHaugseng}).
 		\item Let $\bfproperad^{\out}_S$ denote the full suboperad of $\bfproperad_S$ with color set the pullback of $\mathbb{N} \times \{1, 2, 3, \dots \} = \mathbb{N} \times \mathbb{N}_+ \hookrightarrow \mathbb{N} \times \mathbb{N}$.
-		Algebras over $\bfproperad^{\out}_S$ are $S$-colored properads in which every operation has at least one output color. Likewise, there is a colored operad $\bfproperad^{\inp}_S$ with color set $\mathbb{N}_+ \times \mathbb{N}$.
+		Algebras over $\bfproperad^{\out}_S$ are $S$-colored properads in which every operation has at least one output color. Likewise, there is a colored operad $\bfproperad^{\inp}_S$ with color set living over $\mathbb{N}_+ \times \mathbb{N}$.
 		\item Let $\mathbf{DOpd}_S$ be the suboperad of $\bfproperad_S$ with the same color set, with the requirement that the underlying graph of any operation is simply-connected.
 		Algebras over $\mathbf{DOpd}_S$ are $S$-colored dioperads (see \cite[\S 11.5]{YauJohnson:FPAM}).
 	\end{enumerate}
@@ -3845,7 +3848,7 @@ For the reader's convenience we now recall the definition of the $\infty$-operad
 		We let $\calproperad_S \to \pfinsetskel$ denote the $\infty$-operad associated to the simplicial operad $\bfproperad_S$.
 \end{notation}
 
-If $S$ is a set and $\xV$ is a symmetric monoidal $\infty$-category, then we can can consider the \icat{} $\xAlg_{\calproperad_S}(\xV)$ of algebras over $\calproperad_S$.
+If $S$ is a set and $\xV$ is a symmetric monoidal $\infty$-category, then we can consider the \icat{} $\xAlg_{\calproperad_S}(\xV)$ of algebras over $\calproperad_S$.
 We should consider objects of this \icat{} as $S$-colored, $\xV$-enriched $\infty$-properads.
 Our next main goal is to show this is reasonable, by proving in Corollary~\ref{cor:OOpSeq} that this \icat{} is equivalent to the \icat{} $\xAlg_{\bbY_S^\op}(\xV)$ from Definition~\ref{def alg}.
 The stated equivalence utilizes a relationship between $\calproperad_S$ and $\bbY_S^\op$.
@@ -4204,7 +4207,7 @@ We let $x \in \mathbf{P}(a,a,b,b;c)$ be the left graph from Example~\ref{example
 Let $V= \{ e, (12), (34), (12)(34) \} \subseteq \Sigma_4$ be the group of permutations fixing the profile $a,a,b,b$ and let $\Sigma_2 = \{e, (12)(34)\} \subseteq V$.
 As mentioned in Remark~\ref{remark not sigma free}, the stabilizer group of $x$ is $\Sigma_2$.
 Let $X \subseteq \mathbf{O}(a,a,b,b;c)$ be the fiber over $x$, which is a summand of $\mathbf{O}(a,a,b,b;c)$ (since $\mathbf{P}$ is a discrete colored operad).
-We have that $X = \phi^{-1}(x) \to \{x\}$ is a weak equivalence, and using that $\mathbf{O}$ is $\Sigma$-cofibrant, one can show that the the $\Sigma_2$-action on $X$ is free.
+We have that $X = \phi^{-1}(x) \to \{x\}$ is a weak equivalence, and using that $\mathbf{O}$ is $\Sigma$-cofibrant, one can show that the $\Sigma_2$-action on $X$ is free.
 
 Let $F_{\mathbf{P}} \colon \xsSet^T \to \Alg_{\mathbf{P}}(\xsSet)$ be the free $\mathbf{P}$-algebra functor, and likewise for $F_{\mathbf{O}}$.
 Letting $\ast_T$ be the terminal $T$-colored object, we have a commutative diagram
