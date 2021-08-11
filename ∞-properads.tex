@@ -208,6 +208,7 @@
 \newcommand{\Alg}{\name{Alg}}
 \newcommand{\AlgPrdSet}{\name{Alg}_{\mathcal{P}rpd/\Set}}
 
+\newcommand{\lists}{\mathtt{Lst}}
 \newcommand{\sub}{\mathtt{Sb}}
 \newcommand{\out}{\mathtt{out}}
 \newcommand{\inp}{\mathtt{in}}
@@ -1304,7 +1305,7 @@ For example, in the graph from Example~\ref{example three vertex}, the open subg
 \end{example}
 
 \begin{definition}
-	If $K$ is a connected acyclic directed graph, then there are two functions $\inp$ and $\out$ that go from $\sub(K)$ to the powerset $\wp (\edge(K))$ of $\edge(K)$.
+	If $K$ is a connected acyclic directed graph, then there are two functions $\inp$ and $\out$ that go from $\sub(K)$ to the set $\lists (\edge(K))$ of finite unordered lists of elements of $\edge(K)$.
 	The first takes a subgraph $H$ to its set of input edges, while the second takes $H$ to its set of output edges.
 \end{definition}
 
@@ -1318,8 +1319,8 @@ These should satisfy the following:
 	\item The diagram
 \[
 \begin{tikzcd}
-\wp (\edge(G))  \dar["\wp(f_0)"] &\sub(G)  \dar["f_1"] \lar["\inp" swap] \rar["\out"]& \wp (\edge(G))  \dar["\wp(f_0)"] \\
-\wp (\edge(K))  & \sub(K) \lar["\inp" swap] \rar["\out"] & \wp (\edge(K))
+\lists (\edge(G))  \dar["\lists(f_0)"] &\sub(G)  \dar["f_1"] \lar["\inp" swap] \rar["\out"]& \lists (\edge(G))  \dar["\lists(f_0)"] \\
+\lists (\edge(K))  & \sub(K) \lar["\inp" swap] \rar["\out"] & \lists (\edge(K))
 \end{tikzcd}
 \]
 	commutes. \label{definition complete morphism preservation of ports}
@@ -1427,8 +1428,8 @@ Suppose that $f\colon G \to K$ is a morphism.
 We can identify each vertex with a corolla in $\sub(G)$, which induces a function $\vertex(G) \to \sub(K)$ so that the diagram
 \[
 \begin{tikzcd}
-\wp (\edge(G))  \dar["\wp(f_0)"] &\vertex(G)  \dar["f_1"] \lar["\inp" swap] \rar["\out"]& \wp (\edge(G))  \dar["\wp(f_0)"] \\
-\wp (\edge(K))  & \sub(K) \lar["\inp" swap] \rar["\out"] & \wp (\edge(K))
+\lists (\edge(G))  \dar["\lists(f_0)"] &\vertex(G)  \dar["f_1"] \lar["\inp" swap] \rar["\out"]& \lists (\edge(G))  \dar["\lists(f_0)"] \\
+\lists (\edge(K))  & \sub(K) \lar["\inp" swap] \rar["\out"] & \lists (\edge(K))
 \end{tikzcd}
 \]
 commutes.
@@ -1627,8 +1628,8 @@ whenever $i$ is in the appropriate range.
 In particular, for every $v\in\vertex(G)$, there exists $i$ such that $\inp(v)\simeq \{v\}\times_{G_{i,i+1}} G_{i,i} \simeq \{v\}\times_{H_{\alpha(i),\alpha(i+1)}} H_{\alpha(i),\alpha(i)}$ and similarly for $\out(v)$. Hence, the diagram
 \[
 \begin{tikzcd}
-\wp (\edge(G))  \dar["\wp(-)"] &\vertex(G)  \dar \lar["\inp" swap] \rar["\out"]& \wp (\edge(G))  \dar["\wp(-)"] \\
-\wp (\edge(H))  & \sub(H) \lar["\inp" swap] \rar["\out"] & \wp (\edge(H))
+\lists (\edge(G))  \dar["\lists(-)"] &\vertex(G)  \dar \lar["\inp" swap] \rar["\out"]& \lists (\edge(G))  \dar["\lists(-)"] \\
+\lists (\edge(H))  & \sub(H) \lar["\inp" swap] \rar["\out"] & \lists (\edge(H))
 \end{tikzcd}
 \]
 from Remark~\ref{remark alternative characterization of morphisms} commutes.
